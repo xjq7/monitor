@@ -1,3 +1,5 @@
-function r(){}
-
-export default r
+import { timing } from './timing';
+function r() {
+  timing()
+}
+r()

@@ -1,20 +1,3 @@
-/*
- * @Date: 2023-03-10 11:13:44
- * @LastEditors: 夏洁琼 xiajieqiong@tuzhanai.com
- * @FilePath: \performance\web\server.ts
- * @Author: 夏洁琼 xiajieqiong@tuzhanai.com
- * @Description:
- * @LastEditTime: 2023-03-10 13:50:40
- */
-/*
- * @Date: 2023-03-10 11:13:44
- * @LastEditors: 夏洁琼 xiajieqiong@tuzhanai.com
- * @FilePath: \performance\web\server.js
- * @Author: 夏洁琼 xiajieqiong@tuzhanai.com
- * @Description:
- * @LastEditTime: 2023-03-10 13:26:44
- */
-
 import Koa from 'koa';
 import views from 'koa-views';
 import path from 'path';

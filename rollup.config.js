@@ -23,9 +23,7 @@ module.exports = {
   plugins: [
     typescript(),
     clear({
-      // required, point out which directories should be clear.
       targets: ['dist'],
-      // optional, whether clear the directores when rollup recompile on --watch mode.
       watch: true, // default: false
     }),
     !isDev && terser(),

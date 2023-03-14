@@ -20,13 +20,12 @@ specifiers:
   rimraf: ^4.4.0
   rollup: ^3.19.1
   rollup-plugin-clear: ^2.0.7
-  tslib: ^2.5.0
   typescript: ^4.9.5
 
 devDependencies:
   '@koa/router': 12.0.0
   '@rollup/plugin-terser': 0.4.0_rollup@3.19.1
-  '@rollup/plugin-typescript': 11.0.0_6xpx4ownnv75244cfyuvoru6ci
+  '@rollup/plugin-typescript': 11.0.0_h4kaxwm6ctjivrsm4cpxaz7nqu
   '@types/koa': 2.13.5
   '@types/koa-router': 7.4.4
   '@types/koa-static': 4.0.2
@@ -43,7 +42,6 @@ devDependencies:
   rimraf: 4.4.0
   rollup: 3.19.1
   rollup-plugin-clear: 2.0.7
-  tslib: 2.5.0
   typescript: 4.9.5
 
 packages:
@@ -110,7 +108,7 @@ packages:
       terser: 5.16.6
     dev: true
 
-  /@rollup/plugin-typescript/11.0.0_6xpx4ownnv75244cfyuvoru6ci:
+  /@rollup/plugin-typescript/11.0.0_h4kaxwm6ctjivrsm4cpxaz7nqu:
     resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -126,7 +124,6 @@ packages:
       '@rollup/pluginutils': 5.0.2_rollup@3.19.1
       resolve: 1.22.1
       rollup: 3.19.1
-      tslib: 2.5.0
       typescript: 4.9.5
     dev: true
 
@@ -1545,10 +1542,6 @@ packages:
     hasBin: true
     dependencies:
       nopt: 1.0.10
-    dev: true
-
-  /tslib/2.5.0:
-    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: true
 
   /tsscmp/1.0.6:
