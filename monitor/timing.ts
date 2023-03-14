@@ -4,7 +4,7 @@
  * @FilePath: \monitor\src\timing.ts
  * @Author: 夏洁琼 xiajieqiong@tuzhanai.com
  * @Description:
- * @LastEditTime: 2023-03-14 11:49:37
+ * @LastEditTime: 2023-03-14 18:04:15
  */
 
 interface Timing {
@@ -84,7 +84,7 @@ export function timing() {
   if (!performance) return;
 
   // v2
-  if (!!window.PerformanceObserver) {
+  if (!!PerformanceObserver) {
     const timing: Timing = {};
 
     const perfObserver = (
